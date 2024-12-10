@@ -4,20 +4,21 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f1f1f1 ;
     display: flex;
+    justify-content: center;
 }
 
 .container {
     display: flex;
-
+    /* !!! */
     flex-direction: column;
-
+    /* !!! */
     justify-content: center;
     width: 80%;
     margin: 50%;
 }
 
 .box {
-    width: 100px;
+    width: 600px;
     background-color: chartreuse;
     border-radius: 5px;
 }  
