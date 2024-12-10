@@ -8,12 +8,13 @@ body {
 
 .container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
 }
 
 .box {
     width: 100px;
     background-color: chartreuse;
     border-radius: 5px;
-
 }  
